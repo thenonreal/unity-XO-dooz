@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f46cb4ee1b7f94db2f2201ac483565, type: 3}
+  m_Name: data
+  m_EditorClassIdentifier: 
+  _maxPoint: 3
+  _players:
+  - _isAI: 1
+    _color: {r: 1, g: 0.4142865, b: 0, a: 1}
+    _playerName: Orange
+  - _isAI: 0
+    _color: {r: 0.3030839, g: 1, b: 0, a: 1}
+    _playerName: Green
